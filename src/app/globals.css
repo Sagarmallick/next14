@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+a{
+    font-size: 12px;
+    color: blue;
+    margin: 4px;
+}
