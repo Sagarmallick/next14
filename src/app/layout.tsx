@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body style={{height:'100vh'}} className={inter.className}>
+      <body className={inter.className}>
         <header style={{backgroundColor:'#D2B4DE'}}>
           <h1>header</h1>
         </header>
