@@ -1,10 +1,14 @@
 import Card from '@/app/components/card'
+import Link from 'next/link'
 
 import React from 'react'
 
 const Notification = () => {
   return (
-    <Card>Notification</Card>
+    <Card>
+        <div>Notification</div>
+        <Link href="/complex-dashboard/archived">Archived</Link>
+    </Card>
   )
 }
 
